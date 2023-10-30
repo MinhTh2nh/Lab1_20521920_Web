@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Tahoma';
+    font-size: 40px;
+}
+
+.versons{
+    margin-top: 3%;
+    height: 100%;
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.item{
+    padding-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 150px;
+    border-left : dotted 10px #D0D0FF ;
+    background-color: #eeeff2;
+}
+
+.item:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.special{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
